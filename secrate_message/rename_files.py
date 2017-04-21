@@ -11,5 +11,8 @@ def rename_files():
 
     #(2) for each file, rename filename
     for file_name in file_list:
-        os.rename(file_name, file_name.translate(str.maketrans('','','0123456789')))
+        try:
+            os.rename(file_name, file_name.translate(str.maketrans('','','0123456789')))
+        except:
+            print("Error file not found!")
 rename_files()
