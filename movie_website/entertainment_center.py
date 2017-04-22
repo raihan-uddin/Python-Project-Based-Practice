@@ -36,5 +36,7 @@ hunger_games = media.Movie("Hunger games"
                              "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
                              "https://www.youtube.com/watch?v=3PsUJFEBC74")
 
+# All Movies On in a list
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+# Call the template & open the site
 fresh_tomatoes.open_movies_page(movies)
