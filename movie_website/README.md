@@ -4,6 +4,9 @@
 ## Goal of this project
 In this project we will learn how to make an awesome webpage, that lists your favourite movies, and shows their trailers.
 
+# Output of this project
+![Movies](https://github.com/theprogrammingthinker/Python-Project-Based-Practice/blob/master/movie_website/screenshot/screenshot.png)
+
 ## Prequesties
 - Python 3X
 - Web Browser
